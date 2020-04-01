@@ -1,0 +1,18 @@
+(env-name) ➜  ~ conda env export --from-history
+name: env-name
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - jupyter
+  - pandas
+  - matplotlib  
+prefix: /Users/username/anaconda3/envs/env-name
+
+script:
+  - conda activate tensorflow
+pip:
+  - sklearn_pandas
+  
